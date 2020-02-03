@@ -1,0 +1,145 @@
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #F7F7F7;
+            margin: 0 auto;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            font-size: .9em;
+            word-spacing: 1px;
+            letter-spacing: .3px;
+            line-height: 26px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* MOBILE GRID */
+
+        #wrapper {
+            display: grid;
+            grid-template-columns: auto;
+            grid-auto-rows: auto auto auto auto;
+            max-width: 960px;
+            margin: 0 auto;
+            margin-left: 5px;
+            margin-right: 5px;
+            grid-template-areas:
+                "nav"
+                "header"
+                "main"
+                "footer";
+        }
+
+        nav {
+            grid-area: nav;
+            width: 100%;
+        }
+
+        header {
+            grid-area: header;
+            margin: 0;
+        }
+
+        main {
+            grid-area: main;
+            text-align: left;
+        }
+
+        footer {
+            grid-area: footer;
+        }
+
+        /* MAIN NAVIGATION */
+
+        nav ul {
+            list-style-type: none;
+            margin: 2px;
+            padding: 0;
+            overflow: hidden;
+            background-color: #111;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 8px 15px;
+            text-decoration: none;
+        }
+
+        nav a {
+            transition: all .5s;
+        }
+
+        nav li>a:hover {
+            background-color: #111;
+            color: tomato;
+        }
+
+        /* LINK STYLES */
+
+        a {
+            color: tomato;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: teal;
+        }
+
+        /* PARAGRAPH STYLES */
+
+        p::first-letter {
+            font-size: 1.7em;
+        }
+
+        .paragraph-style {
+            border-left: 1px solid #bbb;
+            padding-left: 5px;
+        }
+
+        /* APP LIST STYLES */
+
+        ul.applist {
+            padding: 0;
+            text-align: center;
+        }
+
+        .applist li {
+            border-radius: 6px;
+            display: inline-block;
+            background: teal;
+            color: white;
+            padding: 5px 5px;
+            margin: 2px;
+        }
+
+        .applist li:nth-child(odd) {
+            background: tomato;
+        }
+
+
+
+        /* CSS FOR DESKTOPS */
+        @media screen and (min-width: 481px) {
+            #wrapper {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-auto-rows: auto auto auto auto;
+                max-width: 960px;
+                margin: 0 auto;
+                grid-template-areas:
+                    "nav nav nav nav"
+                    "header header header header"
+                    "main main main main"
+                    "footer footer footer footer";
+            }
+
+            /* MAIN NAVIGATION FOR DESKTOPS */
+
+            nav li {
+                float: left;
+                border-right: 1px solid black;
+            }
+        }
