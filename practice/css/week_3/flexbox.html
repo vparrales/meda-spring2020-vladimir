@@ -11,16 +11,19 @@
           background-color: hotpink;
           height: 500px;
           display: flex;
+          flex-direction: column-reverse;
       }
 
       .flexbox-items {
           background-color: lightpink;
           flex-grow: 1;
+          flex-shrink: 1;
           margin: 20px;
       }
 
       #special-item {
           flex-grow: 2;
+          flex-shrink: 2;
       }
       #last-item {
           flex-grow: 3;
@@ -31,10 +34,18 @@
 
 <body>
   <div id="my-flexbox">
-      <div class="flexbox-items"></div>
-      <div class="flexbox-items" id="special-item"></div>
-      <div class="flexbox-items"></div>
-      <div class="flexbox-items" id="last-item"></div>
+      <div class="flexbox-items">
+          <p>Hello there, how are you! 1</p>
+      </div>
+      <div class="flexbox-items" id="special-item">
+        <p>Hello there, how are you! 2</p>
+      </div>
+      <div class="flexbox-items">
+        <p>Hello there, how are you! 3</p>
+      </div>
+      <div class="flexbox-items" id="last-item">
+        <p>Hello there, how are you! 4</p>
+      </div>
 
   </div>
 </body>
