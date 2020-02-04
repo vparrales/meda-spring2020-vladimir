@@ -11,7 +11,7 @@
           background-color: hotpink;
           height: 500px;
           display: flex;
-          flex-direction: column-reverse;
+          flex-direction: row;
       }
 
       .flexbox-items {
@@ -25,22 +25,40 @@
           flex-grow: 2;
           flex-shrink: 2;
       }
-      #last-item {
-          flex-grow: 3;
+
+      /* #first-item {
+          order: 0;
       }
+
+      #special-item {
+          order: -1;
+      }
+
+      #third-item {
+          order:-2;
+      }
+
+      #last-item {
+          order: 1;
+      } */
+
+      #my-flexbox:nth-child(n+1) {
+          order: 1;
+      }
+
   </style>
 
 </head>
 
 <body>
   <div id="my-flexbox">
-      <div class="flexbox-items">
+      <div class="flexbox-items" id="fisrt-item">
           <p>Hello there, how are you! 1</p>
       </div>
       <div class="flexbox-items" id="special-item">
         <p>Hello there, how are you! 2</p>
       </div>
-      <div class="flexbox-items">
+      <div class="flexbox-items" id="third-item">
         <p>Hello there, how are you! 3</p>
       </div>
       <div class="flexbox-items" id="last-item">
