@@ -1,0 +1,42 @@
+/* This is a style CSS file */
+
+
+body {
+    background-color: thistle;
+}
+
+#flex-gallery > figure {
+    background-color: white;
+    padding:15px;
+    margin: 15px;
+}
+
+figure, figure > img {
+    width: 200px;
+}
+
+div#flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+
+figure {
+    width: 202px;
+}
+
+figure > img {
+    border: solid 1px black;
+    border-radius: 1%;
+}
+
+figcaption {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+    line-height: 30px;
+    color: darkred;
+    font-weight: 700;
+    font-style: italic;
+}
