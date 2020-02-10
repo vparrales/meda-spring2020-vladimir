@@ -18,6 +18,7 @@ figure, figure > img {
 div#flex-gallery {
     display: flex;
     flex-wrap: wrap;
+    flex-flow: colunm wrap;
     align-items: flex-start;
     
 }
