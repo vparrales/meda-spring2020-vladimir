@@ -16,7 +16,7 @@ header {
     width: 950px;
 }
 header, main {
-    border-bottom: solid black 5px;
+    border-bottom: solid red 5px;
 }
 
 header h1 {
@@ -27,6 +27,7 @@ header h1 {
     line-height: 84px;
     
 }
+
 
 #custom-height {
     line-height: 72px;
@@ -40,6 +41,8 @@ header h1 {
     margin-left: 200px;
 }
 
+/* HEADER STYLES START */
+
 nav ul li {
     display: inline-block;
     background-color: red;
@@ -51,9 +54,7 @@ nav ul li {
     
     
 }
-nav ul li:hover {
-    background-color: yellow;
-}
+
 nav ul li a {
     text-decoration: none;
 }
@@ -62,17 +63,67 @@ nav ul {
 }
 
 nav ul li a:link {
-
+    color: white;
 }
 
-nav ul li a:active {
-
-}
 nav ul li a:visited {
-
+    color: white;
 }
 
 nav ul li a:hover {
-    color: green;
-    background-color: yellow;
+   text-decoration: none;
 }
+
+nav ul li a:active {
+    color: lightpink;
+}
+
+/* HEADER STYLES END */
+
+/* FOOTER STYLES START */
+
+footer {
+    color: red;
+    font-family: "Arial";
+    line-height: 48px;
+}
+
+#copyright {
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer #social-links ul {
+    text-align: right;
+}
+footer #social-links ul li {
+    display: inline-block;
+    border: solid red 1px;
+    border-radius: 5px;
+    padding: 0px;
+    line-height: 100%;
+    box-sizing: border-box;
+}
+
+#social-links ul li a {
+    padding: 8px;
+}
+#social-links ul li a {
+    height: 50px;
+}
+footer #social-links ul li:hover {
+    background-color: red;
+    color: white;
+}
+
+#social-links ul li a:link {
+    text-decoration: none;
+    color: red;
+    line-height: 50px;
+}
+
+#social-links ul li a:hover {
+    color: white;
+}
+/* FOOTER STYLES END */
