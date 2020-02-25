@@ -170,3 +170,46 @@ ul.projects {
 .projectmain {
     margin-bottom: 100px;
 }
+
+/* FORM INPUT */
+
+input {
+    width: 500px;
+    height: 50px;
+    background-color: #E2B72C;
+    color: white;
+    font-size: .9em;
+    font-weight: bolder;
+    padding-left: 5px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.submit {
+    width: 120px;
+    height: 25px;
+    background-color: #3AB60F;
+}
+
+.reset {
+    width: 120px;
+    height: 25px;
+    background-color: #DE4F1F;
+}
+
+textarea {
+    background-color: #E2B72C;
+    font-size: .9em;
+    font-weight: bolder;
+    padding-left: 5px;
+    color: white;
+}
+
+fieldset {
+    background-color: ;
+}
