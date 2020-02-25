@@ -1,3 +1,4 @@
+// The console.log function, datatypes, concatenation ,and math operators.
 console.log(10 * 10);
 console.log(1000);
 console.log(1500 / 3);
