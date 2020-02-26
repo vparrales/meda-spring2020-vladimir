@@ -57,3 +57,23 @@ var roundedRandomNumber = Math.floor(someNumber);
 //Print random number.
 console.log (roundedRandomNumber);
 
+//Declaring multiple variables
+var variableA, variableB,
+
+//Declaring multiple variables as well as initializing values.
+var variable1 = "10", variable2 = 100, variable3 = true;
+
+console.log(variable2);
+
+// Calling before Defining is not a good practice it will cause a bug
+console.log(howAreYou);
+var howAreYou = "Hello";
+// You will get undefined
+
+// We reassing the howAreYou value to 100, then we call howAreYou for it's value and assign that to coolVariable.
+var coolVariable = howAreYou = 100;
+console.log(coolVariable);
+
+variable1 = coolVariable * 10;
+
+console.log(variable1);
