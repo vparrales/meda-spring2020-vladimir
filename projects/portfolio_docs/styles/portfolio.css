@@ -138,6 +138,28 @@ ul.projects {
     margin-bottom: 100px;
 }
 
+/* ICON CREDIT LINK STYLES */
+
+.iconcredit small a:link {
+    color: rgb(54, 200, 236);
+    text-decoration: none;
+}
+
+.iconcredit small a:visited {
+    color: rgb(235, 102, 8);
+}
+
+.iconcredit small a:hover {
+    color: rgb(4, 121, 199);
+}
+
+/* FORM */
+
+form {
+    text-align: center;
+}
+
+
 /* FORM INPUT */
 
 input {
@@ -175,10 +197,6 @@ textarea {
     font-weight: bolder;
     padding-left: 5px;
     color: white;
-}
-
-fieldset {
-    background-color: ;
 }
 
 /* SOCIAL MEDIA FOOTER ICONS */
