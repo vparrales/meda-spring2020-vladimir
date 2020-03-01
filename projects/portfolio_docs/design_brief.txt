@@ -6,10 +6,10 @@ navigation bar background-color: #333;
 navigation text color: white;
 heading 1 color: black;
 
-Colors for link text-
+Colors for main link text-
 link color will be white
 link color when hover will be background-color: #111;
-                                         color: lightgreen;
+                                         color: tomato;
 
 Colors for background-
 body background-color: #F7F7F7;
@@ -17,8 +17,12 @@ HTML skills background-color: tomato;
 skills li:nth-child(odd) background: teal;
 
 Color for form -
-reset button background-color: red;
-submit button background-color: green;
+input field  background-color: #5FA6B6;
+             color: white;
+textarea background-color: #5FA6B6;
+         color: white;
+reset button background-color: #DE4F1F;
+submit button background-color: #3AB60F;
 
 http://www.metalearn.net/about
 
@@ -65,7 +69,7 @@ fantastic looking websites. I am a life long learner who is always interested in
 
 CONTACT 
 
-Interested in creating a website? Get in touch with me by filling out the form below. There are a lot of parts that go into 
+Interested in creating a website? Get in touch with us by filling out the form below. There are a lot of parts that go into 
 developing a great site. To develop a great site planning with sitemaps and wireframes is the first step.
 Know that I will go the extra mile in creating the best site for your needs. Take a look at the projects page to see examples of 
 past projects that I have worked on. We can always create a custom tailored site for your specific needs. 
