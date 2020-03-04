@@ -55,8 +55,8 @@ function salaryBonus(salary, bonus) {
     return newSalary;
 }
 
-var test = salaryBonus(10000, .10);
-var test2 = salaryBonus(20000, .05);
+var test = salaryBonus(100000, .15);
+var test2 = salaryBonus(2000000, .01);
 
 console.log(test);
 console.log(test2);
