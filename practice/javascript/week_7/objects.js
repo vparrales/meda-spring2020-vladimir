@@ -35,7 +35,7 @@ var shortObject = {
 console.log(person.last_name);
 console.log(person.phone);
 
-// bracket notation, similar to array access, useful if properties have spacesin them.
+// bracket notation, similar to array access, useful if properties have spaces in them.
 console.log(person["phone"]);
 
 console.log(person.months);

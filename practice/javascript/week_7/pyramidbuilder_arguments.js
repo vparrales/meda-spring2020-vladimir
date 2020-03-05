@@ -46,13 +46,14 @@ function pyramidBuilder(height) {
     }
 }
 
-pyramidBuilder(3);
-pyramidBuilder();
-pyramidBuilder(3);
+var arguments = process.argv;
+
+var height =arguments[2];
+
+height = parseInt(height);
+console.log(height);
+
+pyramidBuilder(height);
 
 
-// Loop for 100 times, and run the function with no number provided.
-for (var i = 0; i < 100; i++) {
-    pyramidBuilder();
-}
 
