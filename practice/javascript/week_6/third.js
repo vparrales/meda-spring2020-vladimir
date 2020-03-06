@@ -1,4 +1,5 @@
-// Equal sign, everything on the right side always happens first.
+// Functions are reusable mini programs, it can only return one value.
+//Equal sign, everything on the right side always happens first.
 var sum = 1000 + 50;
 
 var product = 50 * 50;

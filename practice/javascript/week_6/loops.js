@@ -14,6 +14,13 @@ while (counter < 10) {
     counter = counter + 1;
 }
 
+while (true) {
+    console.log("hello");
+
+    //continue; go directly to the condition again. 
+    // break; stop the loop 
+}
+
 // do while loop " do { } while ();"
 
 var counter2 = 0;
@@ -24,3 +31,4 @@ do {
 
 // And then check to see if we do it again.
 } while (false);
+

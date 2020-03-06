@@ -1,4 +1,4 @@
-// If-Else Statements, conditional statements
+// If-Else Statements, conditional statements, logical choices
 
 // if (condition) {}
 
@@ -123,7 +123,7 @@ if (level > 0 && level < 18) {
 // certain order for if statements
 // if always comes first. Only one if per if statement.
 //else if must come after if. else ifs are potinal
-// else must come last. else rre optional. Only one else per if statement.
+// else must come last. else are optional. Only one else per if statement.
 
 
 
