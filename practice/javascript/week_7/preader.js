@@ -24,7 +24,7 @@ if (type == "text" || type == "txt") {
 
     if (mode == "words" || mode == "word" || mode == "Word" || mode == "Words") {
         wordCount(textToTest);
-    } else if (mode == "character") {
+    } else if (mode == "characters") {
         charCount(textToTest);
     } else {
         console.log("The only options for this program is 'words' or 'characters' for the second argument.");
@@ -37,18 +37,18 @@ if (type == "text" || type == "txt") {
     // This fuction returns a string of the contents of the file you read.
     // fs.readFileSync("filepath to file", "utf8");
 
-    var text = fs.readFileSync("textToTest.txt", "utf8");
+    var text = fs.readFileSync(textToTest, "utf8");
 
     if (mode == "words" || mode == "word" || mode == "Word" || mode == "Words") {
         wordCount(text);
-    } else if (mode == "character") {
+    } else if (mode == "characters") {
         charCount(text);
     } else {
         console.log("The only options for this program is 'words' or 'characters' for the second argument.");
     }
 
 } else {
-    console.log("Welcome to paragraph reader.\n You can load in a string or file and test for the amout of words or characters.\n Example for loading a file and testing for words:\n 'node preader.js words file filetotest.txt' Another example for strings testing characters:\n node preader.js characters text 'text to test'");
+    console.log("Welcome to paragraph reader.\nYou can load in a string or file and test for the amout of words or characters.\nExample for loading a file and testing for words:\n'node preader.js words file filetotest.txt'\nExample for strings testing characters:\nnode preader.js characters text 'text to test'");
     console.log("The type of data can only be 'text' or 'file'.");
 }
 

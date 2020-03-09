@@ -1,1 +1,2 @@
-This class has become really challenging. Stay with it.
+This class has become really challenging. Stay with it. So you have learned variables, selection structures, and loops. Now it is time to learn about DOM manipulation and to start doing some cool JavaScript projects.
+This class has become really challenging. Stay with it. So you have learned variables, selection structures, and loops. Now it is time to learn about DOM manipulation and to start doing some cool JavaScript projects.
